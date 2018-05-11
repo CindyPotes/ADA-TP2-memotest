@@ -1,0 +1,36 @@
+body{
+	margin: 0px;
+	border: 0px;
+	font-family: 'Pangolin', cursive;
+}
+
+.todo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagenes{
+	width: 65%;
+	height: auto;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.imagenes img{
+	width: 200px;
+	height: 200px;
+}
+
+.instrucciones img{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.instrucciones li{
+	margin: 10px;
+}
