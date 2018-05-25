@@ -2,6 +2,46 @@ body{
 	margin: 0px;
 	border: 0px;
 	font-family: 'Pangolin', cursive;
+	font-size: 23px;
+}
+
+.paraNombre{
+	width: 20%;
+	height: 200px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 230px;
+	left: 40%;
+}
+
+button{
+	font-family: 'Pangolin', cursive;
+	background-color: #d22030;
+	color: white;
+	border: 3px dashed #f7b829;
+	width: 125px;
+	height: 45px;
+	border-radius: 5px;
+	font-size: 25px;
+	margin: 10px;
+}
+
+input{
+	font-family: 'Pangolin', cursive;
+	background-color: #f7b829;
+	border: 3px dashed #d22030;
+	width: 180px;
+	height: 35px;
+	border-radius: 5px;
+	font-size: 25px;
+	margin: 10px;
+	text-align: center;
 }
 
 .todo{
@@ -13,7 +53,7 @@ body{
 .imagenes{
 	width: 65%;
 	height: auto;
-	margin: 30px;
+	margin: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -25,6 +65,10 @@ body{
 	height: 200px;
 }
 
+.informacion{
+	margin: 20px;
+}
+
 .instrucciones img{
 	width: 100px;
 	height: 100px;
@@ -34,3 +78,37 @@ body{
 .instrucciones li{
 	margin: 10px;
 }
+
+.nomas {
+	pointer-events: none;
+}
+
+.noMostrar{
+	display: none;
+}
+
+.mostrar{
+	width: 20%;
+	height: 200px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 230px;
+	left: 40%;
+}
+
+.girar{
+	transform: rotateY(180deg);
+  transition: .40s;
+}
+
+.volver{
+	transform: rotateY(180deg);
+  transition: .40s;
+}
+

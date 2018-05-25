@@ -7,6 +7,11 @@
 	<meta charset="utf-8">
 </head>
 <body>
+	<div class="paraNombre">
+		<p>¿Cuál es tu nombre?</p>
+		<input class="nombre" type="text" name="">
+		<button onclick="comenzar()">Comenzar</button>
+	</div>
 	<div class="todo">
 		<div class="imagenes">
 			<img class="img" src="paulflor.png">
@@ -26,7 +31,7 @@
 			<div class="datos">
 				<h1>Nombre del jugador
 				</h1>
-				<p class="tuNombre">aqui va tu nombre
+				<p class="tuNombre">aquí va tu nombre
 				</p>
 				<h2>Movimientos restantes
 				</h2>
@@ -36,18 +41,23 @@
 			<div class="instrucciones">
 				<h2>Instrucciones
 				</h2>
-				<li>Debes buscar parejas de estas imagenes.
-				</li>
+				<p>Debes buscar parejas de estas imagenes.
+				</p>
 				<img src="amarillo.png">
 				<img src="azul.png">
 				<img src="harry.png">
-				<li>Tienes 15 intentos para conseguirlo.
-				</li>
+				<p>Tienes 15 intentos para conseguirlo.
+				</p>
 			</div>
 		</div>
 	</div>
-	<div class="perdio">
+	<div class="noMostrar nuevamente" id="perdio">
 		<p>Perdiste, intenta nuevamente</p>
+		<button onclick="jugarNuevamente()">Jugar</button>
+	</div>
+	<div class="noMostrar nuevamente" id="gano">
+		<p>¡Felicitaciones, ganaste!</p>
+		<button onclick="jugarNuevamente()">Jugar</button>
 	</div>
 	<script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="memotest.js"></script>
