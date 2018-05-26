@@ -4,7 +4,7 @@ function comenzar(){
 	if (nombre != null) {
   $('.tuNombre').html(nombre)
   $('.paraNombre').hide()
-	}
+	} 
 }
 
 $('.paraNombre').on('keypress', function(e){
@@ -72,6 +72,8 @@ $('.img').on('click',function(e){
 		}else{
 			ok1.attr('src', 'paulflor.png')
 			ok2.attr('src', 'paulflor.png')
+			ok1.removeClass('girar')
+			ok2.removeClass('girar')
 			turnoNumero--
 			if(turno.length == 2){
 				turno = []
